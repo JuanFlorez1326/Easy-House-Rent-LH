@@ -1,0 +1,14 @@
+.polity-container{
+    width: 100%;
+    padding: 1em 2em;
+}
+
+.polity-title{
+    margin: 1.2em 0 0.2em 0;
+}
+
+.polity-text{
+    width: 100%;
+    text-align: justify;
+    margin: 0 0 1em 0;
+}

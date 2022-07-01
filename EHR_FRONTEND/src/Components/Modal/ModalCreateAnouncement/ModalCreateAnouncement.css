@@ -1,0 +1,222 @@
+.modal-content-item{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+}
+
+.header-modal-icon{
+    padding: 0.3em 0;
+    font-size: 15px;
+    cursor: pointer;
+    
+}
+.create-progress {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 5em;
+    align-items: center;
+    margin: 1em auto 0.5em auto;
+    font-weight: bolder;
+    color: rgb(37, 46, 53);
+}
+
+.modality-medium{
+    display: flex;
+    width: 100%;
+    gap: 0.5em;
+}
+.create-title {
+    color:rgb(37, 46, 53);
+}
+
+.close-svg {
+    cursor: pointer;
+    transition: 0.3s ease all;
+}
+
+
+.header-modal {
+    padding: 0.1em 0.5em;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-stage-none{
+    width: 2em;
+    height: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-stage {
+    padding: 0;
+    margin: 0;
+    height: 2em;
+    width: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(37, 46, 53);
+    color: rgb(89,228,168) ;
+    border-radius: 250px;
+}
+
+.create-subtitle {
+    color: rgb(37, 46, 53);
+    width: 100%;
+}
+
+.required-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2%;
+    height: 335px;
+}
+
+
+.first-action-container {
+    padding: 0 0.5em;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.create-action-button{
+    margin: 0;
+}
+
+.create-action-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.create-info {
+    display: flex;
+    flex-direction: column;
+    height: 320px;
+}
+
+.create-description {
+    width: 100%;
+    height: 100%;
+    resize: none;
+}
+
+.row{
+    margin: 1em 0 0.5em 0;
+    border-radius: 5px;
+    height:200px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    overflow-y: auto;
+    border-radius: 5px;
+    background: url(https://res.cloudinary.com/easyhouserent/image/upload/v1654022187/EHR/profiles/reungo1mxygxsijhxb5f.svg);
+    background-size: cover;
+    box-shadow: inset 0px 0px 24px -3px #a6a4a4;
+}
+
+.content_img{
+     margin: 0.5em auto;
+     width: 90%;
+     border-radius: 5px;
+     height: 7em;
+     position: relative;
+     display: flex;
+     justify-content: flex-start;
+     transition: 0.3s ease;
+}
+
+.img-responsive{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.image-delete{
+    display: none;
+}
+
+.content_img:hover .image-delete {
+    position: absolute;
+    margin: 0.35em;
+    transition: 0.3s ease;
+    width: 1.7em;
+    height: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 255px;
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    font-weight: bolder;
+    outline: .1px solid rgb(100,100,100);
+    
+}
+
+.select-files{
+    margin: 0 auto;
+    width: 225px;
+    padding: 0.5em;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.65);
+    box-shadow: rgb(0 0 0 / 44%) 0px 2px 2px 0px, rgb(0 0 0 / 44%) 0px 0px 1px 0px;
+    border: 1px solid rgba(0,0,0,0.4) ;
+    transition: 0.3s ease all;
+}
+
+.select-files:hover{
+    color: rgba(0,0,0,0.65);
+    width: 245px;
+}
+
+@media screen and (max-width: 610px) {
+
+    .create-info{
+        height: 240px;
+    }
+
+    .create-title{
+        font-size: 17px;
+    }
+
+    .create-progress{
+        margin: 0.5em 0;
+    }
+
+    .create-subtitle{
+        font-size: 16px;
+        margin: 0 0 0.5em 0;
+    }
+
+    .required-info{
+        height: 260px;
+        padding: 0;
+    }
+
+    .first-action-container{
+        padding: 1em 0 0 0;
+    }
+
+    .row{
+        height: 150px;
+    }
+
+    .modality-complete{
+        width: 100%;
+        flex-direction: column;
+        gap: 0.3em;
+    }
+}

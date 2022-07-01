@@ -1,0 +1,231 @@
+.profile-update {
+    outline: 2.5px solid rgb(150, 150, 150);
+    border: 5px solid rgb(255, 255, 255);
+    width: 205px;
+    height: 200px;    
+    position: relative;
+    transition: 0.3s ease;
+    border-radius: 255px;
+    margin: 8.5em 2em;
+    z-index: 1;
+}
+
+
+
+.options-container {
+    display: none;
+    gap: 1em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s ease;
+    width: 60%;
+    flex-direction: column;
+
+}
+
+
+.profile-update:hover .options-container {
+    display: flex;
+    transform: 0.3s ease;
+}
+
+#image-update {
+    display: none;
+}
+
+.img-update-label {
+    cursor: pointer;
+}
+
+.background-profile {
+    height: 190px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 255px;
+}
+
+.image-user-options {
+    display: flex;
+    padding: 0.8em 1em;
+    gap: 0.5em;
+    align-items: center;
+    justify-content: flex-start;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    outline: solid 1px rgba(0, 0, 0, 0.50);
+    background-color: rgba(0, 0, 0, 0.50);
+    color: rgb(255, 255, 255);
+}
+
+/* container for the banner */
+
+.image-update-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 380px;
+    border-radius: 5px;
+}
+
+
+
+.banner-image-container {
+    width: 1200px;
+    height: 235px;
+        background:  linear-gradient(90deg, rgba(34, 58, 52, 0.757) 50%, rgba(25, 30, 21, 0.65) 100%),url("https://cdn.pixabay.com/photo/2020/02/26/10/21/colombia-4881379_960_720.jpg"); 
+
+    position: absolute;
+    border-radius: 10px;
+}
+
+.text-update-container {
+    width: 1115px;
+    height: 150px;
+    background: #fff;
+    position: absolute;
+    margin: 15em 0 0 0;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.profile-tools {
+    width: 78%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.content-image-props {
+    display: flex;
+}
+
+.content-props-user {
+    padding: 0  2em 0 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.user-name-tools{
+    font-size: 47px;
+    color: rgba(35,35,35,0.95);
+    text-transform: capitalize;
+}
+
+.user-data-tools{
+    font-family: 'Mulish', sans-serif;  
+    color:  rgba(25, 25, 25, 0.95);
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+
+@media screen and (max-width : 1440px){
+    .banner-image-container{
+        width: 83%;
+    }
+}
+
+@media screen and (max-width : 1300px ){
+    .text-update-container{
+        width: 83%;
+    }
+}
+
+@media screen and (max-width : 1200px) {
+
+
+    .profile-update{
+        width: 155px;
+        height: 150px;
+    }
+
+    .background-profile{
+        width: 100%;
+        height: 100%;
+    }
+
+    .image-user-options{
+        padding: 0.5em 0.3em 0.5em 0;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .options-container{
+        width: 100%;
+    }
+
+    .user-name-tools{
+        font-size: 40px;
+    }
+
+    .content-image-props{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width : 880px){
+    .profile-tools{
+        width: 100%;
+    }
+
+    .user-name-tools{
+        text-align: center;
+    }
+
+    .content-image-props{
+        justify-content: space-around;
+    }
+
+}
+
+@media screen and ( max-width : 680px ){
+
+    .content-image-props{
+        flex-direction: column;
+        gap: 0.5em;
+        align-items: center;  
+    }
+
+    .content-props-user{
+        width: 250px;
+    }
+
+    .banner-image-container{
+        height: 180px;
+    }
+
+    .user-data-tools{
+        font-size: 18px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+
+    .text-update-container{
+        margin: 13em 0 0 0;
+    }
+
+    .image-update-container{
+        align-items: center;
+    }
+
+    .image-update-container{
+        height: 380px;
+    }
+
+    .profile-update{
+        margin: 5em 0;
+    }
+
+    .user-name-tools{
+        font-size: 25px;
+        padding: 0.5em 0 0 0;
+    }
+}

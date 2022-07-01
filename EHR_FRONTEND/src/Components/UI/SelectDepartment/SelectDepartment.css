@@ -1,0 +1,11 @@
+.select-department{
+    border-radius: 5px;
+    border: solid .1px rgba(136,136,136,0.60);
+    width: 100%;
+    padding: 2% 2%;
+    color: rgba(116,116,116);
+}
+
+.select-department:focus{
+    outline: 1px solid #1C6EA4;
+}

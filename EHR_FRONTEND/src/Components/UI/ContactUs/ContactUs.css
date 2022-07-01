@@ -1,0 +1,134 @@
+.div-container-contact-us {
+    height: 500px;
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0
+}
+.div-contact-us{
+	border-radius: 5px;
+    height:400px;
+    width: 330px;
+    position: absolute;
+    border-radius: 10px;
+    background: rgba(35,35,35);
+    z-index: 1;
+	padding:1em 0.5em;
+}
+.div-contact-touch{
+	color: rgb(37,46,53);
+    width: 700px;
+    margin: 0 0 0 3em;
+    position: relative;
+    border-radius: 10px;
+	background: rgb(229,229,229);
+    box-shadow: 5px 5px 4px 2px rgba(0,0,0,0.45);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+	justify-content:center;
+    color: rgb(229,229,229);
+}
+
+.text-container-contact{
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+    margin: 0.5em;
+}
+
+.form-contact-us{
+    width: 60%;
+    text-align: center;
+    padding: 0 0 1em 0;
+}
+
+.title-contact-us{
+    color: rgb(200,200,200);
+    font-family: 'Mulish', sans-serif;  
+    font-weight: bolder ;
+    font-size: 2em;
+    width: 100%;
+    text-align: center;
+    margin: 0.5em 0 1em 0;
+}
+
+.text-contact{
+    color: rgb(200,200,200);
+    font-family: 'Mulish', sans-serif;  
+    font-weight: bolder ;
+}
+
+.exit-contact{
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(37,46,53);
+}
+
+.header-contact{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 0.5em;
+}
+
+.contact-text{
+    max-width: 310px;
+    max-height: 216px;
+}
+
+@media screen and (max-width: 750px){
+    .div-container-contact-us{
+        width: 500px;
+    }
+
+    .div-contact-touch{
+        position: static;
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-contact-us{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .div-contact-us{
+        display: none;
+    }
+
+    .contact-text{
+        max-width: 399px;
+        max-height: 219px;
+    }
+}
+
+@media screen and (max-width : 560px){
+    .div-container-contact-us{
+        width: 400px;
+    }
+
+    .contact-text{
+        max-width: 317px;
+        max-height: 180px;
+    }
+
+}
+
+@media screen and (max-width : 450px ){
+    .div-container-contact-us{
+        width: 300px;
+    }
+
+    .contact-text{
+        max-width: 240px;
+        max-height: 110px;
+    }
+
+    .title-contact{
+        font-size: 12px;
+    }
+}

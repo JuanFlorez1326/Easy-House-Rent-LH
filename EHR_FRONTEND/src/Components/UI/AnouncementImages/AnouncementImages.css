@@ -1,0 +1,139 @@
+.relative-images-container{
+    width: 830px;
+    display: flex;
+    gap: 1em;
+    justify-content: flex-start;
+    padding: 1.5em 0.5em;
+    background: rgba(0,0,0,0.4)
+}
+
+.first-relative-image{
+    width: 640px;
+    height: 400px;
+}
+
+.relative-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 3px solid rgba(0,0,0,0.3);
+}
+
+.relative-image-render{
+    width: 150px;
+    height: 100px;
+}
+
+.relatives-image{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    flex-direction: column;
+}
+
+.add-image-info{
+    width: 100%;
+    margin: 1em 0 0 0;
+    background: rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    
+    align-items: center;
+    height: 80px;
+}
+
+.images-add-info{
+    padding: 0.5em;
+    border-radius: 5px;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.1em;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 3px 3px 2px 1px rgba(0,0,0,0.30);
+    background: rgb(229, 229, 229);
+    font-weight: bolder;
+    color: rgba(35,35,35,0.95);
+}
+
+@media screen and ( max-width: 1150px){
+    .relative-images-container{
+        width: 830px;
+        margin: auto;
+    }
+
+    .separator-images{
+        display: none;
+    }
+
+    .add-image-info{
+        width: 830px;
+        margin: 1em auto;
+    }
+}
+
+@media screen and ( max-width: 850px){
+    .relative-images-container{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        padding: 1em;
+    }
+
+    .first-relative-image{
+        width: 90%;
+        margin: auto;
+    }
+
+    .add-image-info{
+        width: 100%;
+    }
+
+    .relatives-image{
+        width: 90%;
+        margin: auto;
+        flex-direction: row;
+    }
+}
+
+
+@media screen and (max-width : 650px){
+    .relative-images-container{
+        padding: 1em 0.5em;
+    }
+
+    .first-relative-image{
+        height: 250px;
+    }
+
+    .relative-image-render{
+        width: 130px;
+        height: 90px;
+    }
+    
+    .images-add-info{
+        font-size: 0.9em;
+        padding: 0.5em 0;
+        width: 30%;
+        }
+    }
+
+    .add-image-info{
+        gap: 0.5em;
+    }
+
+
+@media screen and (max-width : 420px){
+    .first-relative-image{
+        height: 190px;
+    }
+
+    .relative-image-render{
+        width: 100px;
+        height: 60px;
+    }
+
+}

@@ -1,0 +1,207 @@
+.profile-page {
+    background: url(https://res.cloudinary.com/easyhouserent/image/upload/v1653748585/EHR/profiles/hfyawuczou3oyazxnpsz.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0 0 1em 0;
+}
+
+.profile-user-container {
+    margin: 1em auto 2em auto;
+    width: 100%;
+    display: flex;
+    gap: 2em;
+
+}
+
+/* profile data */
+
+.user-info-tools {
+    max-width: 1300px;
+    width: 100%;
+    margin: 1em auto;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    padding:  1em 2em 0.5em 2em;
+    border-radius: 5px;
+    box-shadow: -1px 5px 7px -2px #919191;
+}
+
+.profile-data-received {
+    width: 100%;
+    background: #fff;
+    padding: 0.5em 1em 0.5em 1em;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+.profile-data{
+    width: 100%;
+    border-radius: 5px;
+    padding: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.line-profile-separator {
+    border: .1px solid rgba(200, 200, 200, 0.7);
+    width: 99%;
+    margin:  0 auto;
+    border-radius: 5px;
+}
+
+.add-settings-account {
+    width: 100%;
+    display: flex;
+    gap: 2em;
+    padding: 0 0.5em;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #fff;
+    border-radius: 5px;
+    flex-wrap: wrap;
+}
+
+.description-user{
+    font-family: 'Mulish', sans-serif;  
+    color:  rgba(25, 25, 25, 0.95);
+    font-size: 19px;
+    font-weight: bolder ;
+}
+
+.description-user-title{
+    color:  rgba(25, 25, 25, 0.95);
+    font-size: 23px;
+    font-weight: bolder ;
+}
+/* password content */
+
+.recovery-password-container{
+    width: 600px;
+    height: 500px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 1px 5px 11px -2px #1a1919;
+}
+
+/* end profile */
+
+.user-card {
+    box-shadow: -1px 5px 7px -2px #919191;
+}
+
+.user-image-container {
+    width: 175px;
+    margin: 0 auto;
+    border-radius: 255px;
+}
+
+.profile-user-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 255px;
+}
+
+.most-recent-container {
+    padding: 1.5em 0.5em 1em 0.5em;
+    border-radius: 5px;
+    max-width: 1300px;
+    width: 100%;
+    margin: auto;
+    background: #FFFFFF;
+    box-shadow: -1px 5px 7px -2px #919191;
+}
+
+/* anoucement profile */
+
+.anouncement-user-container {
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.anouncement-profile-submit {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: -1px 5px 7px -2px #919191;
+    height: 45vh;
+}
+
+.not-anouncement {
+    padding: 1em 1em 0 1em;
+    height: 20em;
+    width: 100%;
+
+}
+
+.not-anouncement-profile {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background: url(https://res.cloudinary.com/easyhouserent/image/upload/v1654022187/EHR/profiles/reungo1mxygxsijhxb5f.svg);
+    background-size: cover;
+    box-shadow: inset 0px 0px 24px -3px #a6a4a4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em;
+}
+
+.not-icon {
+    padding: 0 0 0 0.1em;
+    font-size: 8em;
+    color: rgba(0, 0, 0, 0.40);
+    text-shadow: #e0e0e0 1px 1px 0;
+}
+
+.not-anouncement-title {
+    font-size: 1.7em;
+    color: #616161;
+    text-shadow: #e0e0e0 1px 1px 0;
+}
+
+@media screen and (max-width: 1600px){
+    .user-info-tools{
+        width: 90%;
+    }
+
+    .most-recent-container{
+        width: 90%;
+    }
+}
+
+@media screen and ( max-width: 1130px){
+    .user-info-tools{
+        padding: 1em;
+    }
+}
+
+@media screen and (max-width : 800px ){
+    .user-info-tools{
+        padding: 0.5em;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .line-profile-separator{
+        width: 92%;
+    }
+    
+    .add-settings-account{
+        gap: 0.5em;
+    }
+
+    .most-recent-container{
+        width: 100%;
+        border-radius: 0;
+    }
+}

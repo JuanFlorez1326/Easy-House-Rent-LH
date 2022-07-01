@@ -1,0 +1,134 @@
+.advertisement-info {
+    width: 100%;
+    padding: 2em 3em;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:center;
+    gap: 1em;
+    background: linear-gradient(100deg, rgba(7, 6, 6, 0.757) 30%, rgba(27, 26, 26, 0.75) 100%), url(https://cdn.pixabay.com/photo/2017/09/08/15/21/house-2729079_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.prop-advertisement {
+    max-width: 400px;
+    background-color: #fff;
+    width: 100%;
+    padding:1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-target-data {
+    background: rgb(229, 229, 229);
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 3px 3px 2px 1px rgba(0,0,0,0.30);
+    margin: 0 0 0.75em 0;
+}
+
+.user-target {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    gap: 0.5em;
+    margin:  auto;
+    padding: 1em 0;
+}
+
+.text-container-dot{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 0.5em;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+}
+
+.user-data-title {
+    width: 100%;
+    background: rgba(35, 35, 35, 0.95);
+    color: rgb(89, 228, 168);
+    border-radius: 5px 5px 0 0;
+}
+
+.user-target-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70%;
+}
+
+.value-email{
+    text-align: start;
+    height: 1.3qem;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.description-value{
+    font-family: 'Mulish', sans-serif;  
+    color:  rgba(25, 25, 25, 0.95);
+    font-size: 110%;
+    font-weight: bolder ;
+}
+
+.prop-advertisement-subinfo {
+    width: 100%;
+}
+
+.value-anouncement-render{
+    color: rgba(35, 35, 35, 0.95);
+    font-weight: 550;
+    font-size: 35px;
+}
+
+.user-target-actions {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: auto auto;
+    gap: 0.5em 2%;
+    border-radius: 5px;
+}
+
+.target-profile-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    font-weight: bolder;
+    color: rgba(35, 35, 35, 0.95);
+    padding: 1em 0;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.3s ease all;
+    border-radius: 5px;
+    border: none;
+    background: rgb(229, 229, 229);
+    box-shadow: 3px 3px 2px 1px rgba(0,0,0,0.30);
+}
+
+@media screen and (max-width: 1150px){
+    .advertisement-info{
+        flex-direction: column;
+    }
+
+    .advertisement-info{
+        padding: 2em 0;
+    }
+
+    .prop-advertisement{
+        max-width: 830px;
+        margin: auto;
+        gap: 1em;
+    }
+}
+

@@ -1,0 +1,132 @@
+.form-register-valid{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background:  linear-gradient(90deg, rgba(34, 58, 52, 0.757) 50%, rgba(25, 30, 21, 0.65) 100%),url("https://cdn.pixabay.com/photo/2018/03/19/18/46/driveway-3240834_960_720.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.register-polity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    font-size: 0.9em;
+    margin: 0 0 1em 0;
+    color: rgb(37,46,53);
+}
+
+.polity-redirect{
+    color: #1C6EA4;
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 0;
+}
+
+.register-valid-info{
+    max-width: 600px;
+    margin: 5%;
+    width: 40%;
+    text-align: center;
+    padding: 2% 0;
+    background: #FFFFFF;
+    border-radius: 5px;
+    -webkit-box-shadow: 1px 7px 11px 1px rgba(55,55,55,0.85); 
+    box-shadow: 1px 7px 11px 1px rgba(55,55,55,0.85);
+}
+
+.info-register{
+    text-align: center;
+    padding:  0 0 2% 0;
+}
+
+.info-input-register{
+    width: 80%;
+    padding: 2% 2%;
+    margin: 3% 0;
+    border-radius: 5px;
+    border: solid .1px rgba(136,136,136,0.60);
+}
+
+.info-input-register:focus{
+    outline: 1px solid #324439;
+}
+
+.add-register-info{
+    display: flex;
+    width: 80%;
+    margin: 2% auto 3% auto;
+    gap: 2%;
+}
+
+.info-input-add{
+    width: 100%;
+    padding: 2% 2%;
+    border-radius: 5px;
+    border: solid .1px rgba(136,136,136,0.60);
+}
+
+.info-input-add:focus{
+    outline: 1px solid #1C6EA4;
+}
+
+.department-info{
+    width: 80%;
+    margin: 2% auto;
+    display: flex;
+    gap: 2%;
+}
+
+.register-submit{
+    width: 80%;
+    padding: 2%;
+    color: rgb(89,228,168) ;
+    background : rgb(37,46,53);
+    border: none;
+    border-radius: 5px;
+    font-size: 100%;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.register-submit:hover{
+    transform: scale(102%);
+}
+
+.separator-container{
+    display: flex;
+    width: 80%;
+    margin: 4% auto 0 auto;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.line-separator{
+    width: 40%;
+    height: 1px;
+    border: solid .1px grey;
+}
+
+.create-account-register{
+    margin: 4% 0 0 0;
+    color: rgb(37,46,53);
+    font-size: 0.9em;
+}
+
+@media screen and (max-width: 900px){
+    .register-valid-info{
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .register-valid-info{
+        width: 90%;
+        padding: 2em 0;
+    }
+}
+

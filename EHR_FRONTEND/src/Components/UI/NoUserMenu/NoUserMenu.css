@@ -1,0 +1,43 @@
+.status-menu{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100vh;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.3); 
+}
+
+.menu-singout-responsive{
+    position: fixed;
+    top: 11%;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 1em;
+    right: 2%;
+    width: 230px;
+    gap: 0.5em;
+    background: rgb(209,209,209);
+    border-radius: 5px;
+}
+
+.singout-button{
+    background: #fff;
+    padding: 0.8em 0;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    font-weight: bolder;
+    color: rgba(0,0,0,0.7);
+}
+
+@media screen and (max-width : 600px ){
+    .menu-singout-responsive{
+        top: 7%;
+    }
+}
+
+@media screen and (max-width : 380px ){
+    .menu-singout-responsive{
+        top: 8%;
+    }
+}

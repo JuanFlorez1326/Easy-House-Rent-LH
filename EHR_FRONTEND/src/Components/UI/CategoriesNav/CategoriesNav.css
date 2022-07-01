@@ -1,0 +1,40 @@
+.categories-nav-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color :rgb(37,46,53);
+    background: rgb(209,209,209);
+    border-top: 1px solid rgb(150,150,150);
+    border-bottom: 1px solid rgb(110,110,110);
+    flex-wrap: wrap;
+}
+
+.categories-type{
+    width: 170px;
+    text-align: center;
+    padding: 0.7em 0;
+    font-family: sans-serif;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    font-size: 1.3em;
+}
+
+.categories-type:hover{
+    background: rgba(0,0,0,0.5);
+}
+
+@media screen and (max-width : 850px ){
+    .categories-type{
+        font-size: 1em;
+        width: 130px;
+    }
+}
+
+@media screen and ( max-width: 390px ){
+    .categories-type{
+        font-size: 0.9em;
+        width: 110px;
+    }
+}
+

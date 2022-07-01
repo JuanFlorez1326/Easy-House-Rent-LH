@@ -1,0 +1,143 @@
+.card-random-container {
+    width: 100%;
+    margin: 1em;
+    padding: 1em;
+    background: rgba(35,35,35,.95);
+    box-shadow: 1px 5px 14px -4px rgba(0,0,0,1);
+    border-radius: 5px;
+    color: rgb(210,210,210)
+}
+
+.other-random-info {
+    width: 60%;
+    padding: 1em;
+}
+
+.card-random-title-container{
+
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.city-random{
+    width: 40%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.card-images-random{
+    display: flex;
+    width: 100%;
+    padding: 1em;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.secondary-image-random{
+    width: 25%;
+    height: 14em;
+}
+
+.secondary-render{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 12px 1px rgba(0, 0, 0, 0);
+    transition: all 0.3s ease;
+}
+
+.secondary-render:hover{
+    transform: scale(110%);
+}
+
+.primary-images-random{
+    width: 40%;
+    height: 18em;
+    border-radius: 5px;
+}
+
+.description-other-random{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5em 1em;
+    font-size: 0.95em;
+    font-family: sans-serif;
+}
+
+.button-random-redirect{
+    text-align: center;
+    width: 50%;
+    padding: 0.7em 0 ;
+    margin: 0.5em 0 0 0;
+    border-radius: 5px;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    background: rgb(89,228,168);
+    transition: all 0.3s ease;
+    font-size: 101%;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.button-random-redirect:hover{
+    transform: scale(103%);
+    color: #000;
+}
+
+@media screen and (max-width: 1100px ){
+    .primary-images-random{
+        height: 13em;
+    }
+
+    .secondary-image-random{
+        height: 9em;
+    }
+}
+
+@media screen and (max-width: 700px ){
+
+    .button-random-redirect{
+        padding: 0.60em;
+    }
+
+    .description-other-random{
+        gap: 0.5em;
+    }
+
+    .card-random-container{
+        padding: 1em 0;
+    }
+
+    .primary-images-random{
+        height: 9em;
+    }
+
+    .secondary-image-random{
+        height: 5em;
+    }
+
+    .city-random{
+        font-size: 0.8em;
+    }
+}
+
+@media screen and (max-width: 500px){
+
+    .card-random-title{
+        font-size: 1.35em;
+    }
+    .primary-images-random{
+        height: 6em;
+    }
+
+    .secondary-image-random{
+        height: 3.5em;
+    }
+}

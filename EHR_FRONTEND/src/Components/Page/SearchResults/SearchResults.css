@@ -1,0 +1,10 @@
+.cards-content{
+    background:  linear-gradient(90deg, rgba(34, 58, 52, 0.757) 50%, rgba(25, 30, 21, 0.65) 100%),url("https://cdn.pixabay.com/photo/2016/07/25/17/02/new-home-1540871_960_720.jpg");
+    background-repeat: repeat-y;
+    padding: 1em;
+    background-size: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+}
+

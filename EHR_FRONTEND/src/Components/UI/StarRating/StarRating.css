@@ -1,0 +1,20 @@
+.radio-item{
+    display: none;
+}
+.stars-container{
+    margin: 2% 0;
+}
+
+.star-title{
+    text-align: center;
+    
+}
+.rating-logic{
+    padding: 1% 0;
+    display: flex;
+    justify-content: center;
+}
+
+.star{
+    font-size: 200%;
+}

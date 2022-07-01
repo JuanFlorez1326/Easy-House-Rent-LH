@@ -1,0 +1,239 @@
+.home-section-container{
+    background: url("https://cdn.pixabay.com/photo/2021/01/19/14/45/alley-5931413_960_720.jpg");
+    margin: auto;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 8% 0;
+}
+
+.home-section-info{
+    width: 80%;
+    text-align: center;
+}
+
+
+
+
+.section-container-slogan{
+    font-size:110%;
+    color: rgba(256,256,256,0.65);
+    margin-bottom: -2%;
+}
+
+.section-container-title{
+    letter-spacing: 3px;
+    font-size: 4.9rem;
+    color: #FFFFFF;
+    
+}
+
+.search-home-container{
+    width: 80%;
+    margin: 2% auto;
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+
+.search-box-home{
+    width: 70%;
+    padding: 1% 2%;
+    border-radius: 30px;
+    border: none;
+    transition: 0.2s ease;
+    text-align: start;
+}
+
+.search-box-home:focus{
+    border: none;
+    outline: 2px solid rgba(136,136,136,0.70);
+}
+
+.search-home-submit{
+    font-weight: bolder;
+    font-size: 105%;
+    width: 16%;
+    padding: 1% 2%;
+    border-radius: 30px;
+    border: none;
+    transition: .5s ease;
+    color: #FFFFFF ;
+    background : rgb(37,46,53);
+}
+
+.search-home-submit:hover{
+    background: rgb(89,228,168) ;
+    color : rgb(37,46,53);
+    transform: scale(103%);
+}
+
+.content-page-info{
+    display: flex;
+    margin: 1.5em auto 0 auto;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.rent-info{
+    width: 30%;
+    padding: 2%;
+    text-align: center;
+}
+
+.house-icon{
+    width: 20%;
+    margin: 0 0 4% 0;
+}
+.rent-text-title{
+    font-size: 120%;
+    font-weight: bolder;
+    color: rgb(37,46,53);
+    
+}
+
+.rent-info-text{
+    text-align: center;
+    width: 100%;
+    margin: 2% auto;
+    font-family: 'Mulish', sans-serif;  
+    color:  rgba(25, 25, 25, 0.95);
+    font-weight: bolder;
+    font-size: 120%;
+}
+
+@media screen and (max-width: 1600px){
+    .content-page-info{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:1200px){
+    .search-home-container{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:900px){
+    .search-home-submit{
+        font-size: 90%;
+        width: 20%;
+    }
+
+    .section-container-title{
+        margin-top: 0.1em;
+        line-height: 1.2em;
+    }
+
+    .search-home-container{
+        width: 100%;
+    }
+
+    .search-box-home{
+        height: 3em;
+        width: 100%;
+    }
+
+    .rent-info{
+        width: 100%;
+    }
+
+    .rent-text-title{
+        font-size: 100%;
+        font-weight: bolder;
+        
+    }
+
+    .rent-info-text{
+        font-size: 90%;
+        width: 90%;
+        margin: 2% auto;
+    }
+}
+
+@media screen and (max-width:720px){
+    .section-container-title{
+        line-height: 65px;
+        font-size: 3.2rem;
+        width: 100%;
+        margin: 2% auto;
+    }
+
+    .rent-text-title{
+        font-size: 1.4em;
+    }
+
+    .rent-info-text{
+        font-size: 1em;
+        width: 75%;
+        margin: 2% auto;
+    }
+
+    .rent-info{
+        width: 100%;
+    }
+
+    .house-icon{
+        width: 15%;
+        margin: 2% 0 0 0;
+    }
+
+    .content-page-info{
+        flex-wrap: wrap;
+         
+    }
+
+    .search-home-container{
+        width: 80%;
+    }
+
+    .search-box-home{
+        width: 100%;
+        padding: 2% 5%;
+    }
+
+    .search-box-home::placeholder{
+        font-size: 120%;
+    }
+
+    .search-home-submit{
+        display: none;
+    }
+
+    .search-box-home{
+        font-size: 60%;
+        padding: 3% 5%;
+    }
+}
+
+@media screen and (max-width:400px){
+    .section-container-title{
+        margin: 2% auto 8% auto;
+        font-size: 2.6rem;
+        line-height: 40px;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+
+    .section-container-slogan{
+        font-size:70%;
+        color: rgba(256,256,256,0.65);
+        margin-bottom: -2%;
+    }
+
+    .search-home-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rent-text-title{
+        font-size: 1em;
+    }
+
+    .rent-info-text{
+        font-size: 0.8em;
+    }
+}

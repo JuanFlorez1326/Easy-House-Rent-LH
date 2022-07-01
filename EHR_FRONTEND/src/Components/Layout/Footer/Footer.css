@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Palette+Mosaic&display=swap');
+
+.register-footer-container{
+    width: 100%;
+    background: rgba(35,35,35,0.95);
+    text-align: center;
+    padding: 1em 0 ;
+}
+
+.footer-icons{
+    width: 100%;
+    margin: 1em 0;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+.footer-icon{
+    background: rgba(15,15,15,0.70);
+    font-size: 130%;
+    border-radius: 250px;
+    padding: 10px;
+    color:rgb(89,228,168);
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.footer-icon:hover {
+    background-color:rgba(165, 164, 164, 0.7);
+}
+
+.footer-title{
+    letter-spacing: 2px;
+    font-family:'Poppins', sans-serif;
+    color: #FFFFFF;
+    font-size: 1.5em;
+}
+
+.footer-relinks{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 3em;
+    font-size: 70%;
+    color: rgba(154,204,207,1);
+}
+.footer-textInfo{
+    text-decoration: none;
+    color: rgba(154,204,207,1);
+}
+.footer-textInfo:hover{
+    text-decoration: none;
+    color: rgba(154,204,207,1);
+}
+
+@media screen and (max-width:630px){
+
+    .footer-title{
+        font-size: 1.2em;
+        letter-spacing: 1px;
+    }
+
+    .footer-relinks{
+        width: 100%;
+        font-size: 41%;
+        padding: 0 1em;
+        justify-content:space-between;
+    }
+
+    .footer-icons{
+        gap: 0.4em;
+    }
+
+    .footer-textInfo{
+        width: 25%;
+    }
+}

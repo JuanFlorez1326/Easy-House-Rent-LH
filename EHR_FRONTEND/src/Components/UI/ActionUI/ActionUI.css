@@ -1,0 +1,11 @@
+.action-container{
+    display: flex;
+    outline: solid 1px pink;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.redirect{
+    font-size: 150%;
+    
+}
